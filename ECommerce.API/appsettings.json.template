@@ -1,0 +1,21 @@
+{
+  "ConnectionStrings": {
+	"DefaultConnection": "Server=<YOUR_SERVER>;Database=<YOUR_DB>;Trusted_Connection=True;"
+  },
+
+  "Jwt": {
+	"Key": "<REPLACE_WITH_USER_SECRET_OR_ENV_VAR>",
+	"Issuer": "ECommerceAPI",
+	"Audience": "ECommerceClient",
+	"ExpiryMinutes": 60
+  },
+
+  "Logging": {
+	"LogLevel": {
+	  "Default": "Information",
+	  "Microsoft.AspNetCore": "Warning"
+	}
+  },
+
+  "AllowedHosts": "*"
+}

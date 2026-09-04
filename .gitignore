@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio Code / JetBrains
+.vscode/
+.idea/
+
+# Test results
+TestResults/
+
+# Logs
+logs/
+*.log
+
+# Local DB / Local settings containing secrets
+# Ignore development-only appsettings to avoid committing secrets.
+ECommerce.API/appsettings.Development.json
+ECommerce.API/appsettings.Local.json
+ECommerce.API/appsettings.*.Local.json
+
+# Ignore user secrets folder
+secrets.json
+
+# Rider
+.idea/
+
+# Node
+node_modules/
+
+# ASP.NET Scaffolding
+ScaffoldedFiles/
+
+# Misc
+*.DS_Store
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish
+publish/
+
+# Docker
+**/docker-compose.*.yml
+
+# Always keep the solution file tracked
+# (do not ignore .sln)
